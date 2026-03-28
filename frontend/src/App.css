@@ -1,0 +1,52 @@
+/* Styles the scrollbar track */
+.scrollbar-track {
+  background: #0D0D0D; 
+}
+
+/* Styles the scrollbar handle */
+.scrollbar-thumb {
+  background-color: #C5A059;
+  border-radius: 10px;
+  border: 3px solid #0D0D0D;
+}
+
+/* Adds the styling to only the vertical scrollbar */
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 10px;
+}
+
+.skinAssessmentForm::-webkit-scrollbar {
+  width: 6px;
+}
+
+.skinAssessmentForm::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+
+.skinAssessmentForm::-webkit-scrollbar-thumb {
+  background-color: #C5A059;
+  border-radius: 10px;
+}
+
+
+
+
+.input-field:focus {
+  outline: none;
+  box-shadow: none; /* Optional: Removes any shadow effects on focus */
+}
+
+.sidebar-logo {
+  width: 120px; /* Explicit width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0; /* Remove any margins */
+}
